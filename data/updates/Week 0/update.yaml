@@ -23,7 +23,73 @@ The Customer
 > stressful and expensive (as college students ourselves we have witnessed this process 
 > first hand). Sqrl gets rid of all those unnecessary hassles, providing a market that 
 > allows a quick and easy way to connect to nearby homeowners. 
+>
+> Sqrl's method of generating revenue relies upon charging a cut of each transaction that 
+> occurs on the app. This could be a low percentage, such that it doesn't deter possible 
+> consumers while also keeping costs low for renters.
 
-Scope
+Getting Things Going
 ------
-> Hello
+> Our main consumer demographic for sqrl is the average college student so sending out 
+> fliers and posting on social media seems like a good first start. College students
+> often rent out their own apartments, and serve the dual role of being either a homeowner
+> or storage renter. 
+>
+> Yale staff members are also potential consumers so relaying information to them is crucial
+> in the early stages of our app growth. Ideally, any homeowner, whether temporarily or permanently,
+> would wish to use this app, so marketing in popular New Haven restaurants and other public venues
+> is a good way to spread the word.
+
+Hurdles
+------
+> There are a number of possible concerns relating to the release of our app:
+  * Renters are not comfortable storing items in a stranger's house
+  * Homeowners steal items from renters
+  * The renter or homeowner pool is too small
+  * People attempt to undercut the system and make a transaction directly (without sqrl)
+  * Consumers find more convenient methods of storage
+
+Solutions and Impact
+------
+> While the problems listed above are certainly plausible, our plan of action for sqrl 
+> should mediate them. For example, we could interview possible consumers, mainly college
+> students, to see how comfortable they are with the sharing economy. Additionally, in
+> order to provide more security and reassurance for renters, one of the main features of 
+> sqrl would be a ratings system. After each transaction, homeowners and renters can be rated
+> by one another based upon treatment of storage items (were they returned in the same condition)
+> and ease of transaction. Consumers could also file claims if items are lost during a transaction.
+>
+> Considering all these problems are avoided, sqrl would become an impact that has a substantial impact
+> on the lives of its consumers. Convenience and affordability are the two main selling points of
+> sqrl. Allowing a renter to easily and quickly find a storage space with a few button clicks would
+> lower stress and allow a college student to focus on other matters. Similarly, sqrl provides a painless
+> source of extra income at practically no extra work for homeowners.
+
+As A User
+------
+> As a user seeking a storage space I can login. A map interface is revealed, allowing me to input
+> my current address. Sqrl then locates all the nearby homeowners who are willing to rent out space,
+> providing a list view filled with a homeowner's average rating, storage space size, price, and date of 
+> availability. If I like a homeowner's specs, I can send that person a message and we can arrange a 
+> pickup date. After the transaction, I can rate the homeowner. 
+>
+> From the homeowner's side, the process is much simpler. I create a homeowner account, filling in 
+> my address, storage space size and daily/weekly/monthly rate. Sqrl will then ping me once a renter
+> has made an offer, and I can communicate with that renter through the app.
+
+Technology
+------
+> We are still fleshing out the technological aspects of our web app but we would like to use
+> JavaScript on both the server and client side with express for the web framework. Python is 
+> also a possibility, with the use of Django. The database will likely be PostgreSQL or MySQL.
+>
+> The client side allows browsing through nearby homeowner locations, which means it has to 
+> generate a map, populated with users from the server. Doing this quickly will certainly pose
+> a challenge and we will have to look into existing frameworks.
+>
+> The server side deals with the main chunk of the work. It stores information about each consumer,
+> including reviews and message history. 
+
+
+
+
