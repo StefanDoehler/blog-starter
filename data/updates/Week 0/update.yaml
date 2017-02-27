@@ -1,0 +1,29 @@
+---
+title: MVP Draft Spec
+summary: |
+  sqrl is the airbnb of storage: a community of homeowners and storage seekers
+  conveniently brought together through one simple app. 
+news:
+  - title: Developing the business aspect of our model
+    kind: learning
+
+---
+
+The Customer
+------
+> Sqrl is the airbnb of storage: a community of homeowners and storage seekers
+> conveniently brought together through one simple app. 
+>
+> *Homeowners*, especially recent grads or middle-aged parents, often have rooms
+> in their house that go unused. What better way to make some extra monthly income
+> than to turn that room into a storage space. 
+>
+> *Renters*, especially college students, often need storage for small to medium sized
+> items for weeks to months at a time. The process for finding such a space can often be
+> stressful and expensive (as college students ourselves we have witnessed this process 
+> first hand). Sqrl gets rid of all those unnecessary hassles, providing a market that 
+> allows a quick and easy way to connect to nearby homeowners. 
+
+Scope
+------
+> Hello
