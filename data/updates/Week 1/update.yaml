@@ -1,0 +1,98 @@
+---
+title: Pivoting to Promotr
+summary: |
+  Promotr allows locals to easily discover what's going on in their area,
+  from social events to promotional deals to restaurant happy hours
+news:
+  - title: Developing the business aspect of our model
+    kind: learning
+
+---
+
+Pivoting
+------
+We found our original idea, *sqrl*, to have too many problems, such as being able
+to market such an app and to what specific demographic we could provide such a service. 
+*Promotr* attempts to fortify some of these weaknesses.
+
+The Consumer
+------
+> *Promotr* allows locals to easily discover what's going on in their area,
+  from social events to promotional deals to restaurant happy hours.
+>
+> You and some friends are looking for a place to eat on a Friday night. You can pick from a handful
+> favorites. Maybe Chipotle, maybe some good ol' Salsa Fresca. But you want to change things up. In 
+> particular you want to find something cheap. That's when you hop right on *Promotr*, giving you quick
+> and easy access to a list of nearby restaurant deals, happy hours, and specials.
+>
+> You want to buy some clothes but are unsure where to shop. JCrew is just too damn expensive
+> and Urban Outfitter is a little too tacky for your style. Sales are going on all the time but
+> but how do you keep track of them? Simple. Open up *Promotr* and conveniently
+> browse from a selection of clothing store sales. Buy 1 get 1 free at Pacsun? Heading right over.
+> 
+> You have a friend from the west coast visiting. You've been telling him how awesome Yale is but for 
+> some reason nothing seems to be happening on this Thursday night. No society, no High Street, not even
+> Box. You quickly hop on *Promotr* to see if any other locals have posted about social events going on 
+> right now. Magic the Gathering Tournament? Yeah probably not. Barracuda is popping? On our way.
+>
+> As a restaurant owner, you're convinced your little family owned pizzeria is going to be a huge 
+> hit with the locals. The only problem? Getting the word out. You hear of this service called *Promotr*
+> and sign up, allowing you to use their api to display ad content such as the time of your happy hour, 
+> and whatever daily pie deals you may be having. 
+
+$$$$$
+------
+> *Promotr* makes money by charging a fee for ad space. Companies pay a fee per ad to be
+> displayed on the service. 
+
+Getting Things Going
+------
+> We have two major demographics for *Promotr*: regular users and companies. Two important 
+> and easily marketable groups for regular users are college campuses and big cities. We of course
+> would start with New Haven, asking restaurants and clothing stores if they would interested in such a service, 
+> and then we could ask Yalies if they would utilize such an app. Because we pivoted our idea recently,
+> we have not had time to perform these interviews but plan on doing so over the next few weeks. Getting 
+> a preliminary list of companies that would be on board would give both us, the developers, and potential
+> users a good idea of what will be seen on the app.
+
+Main Hurdles
+------
+> There are a number of possible concerns relating to the release of our app:
+  * The app doesn't gain traction (so ad creators don't have a user base to market to)
+  * Companies aren't interested in paying for such a service
+  * This doesn't solve a problem or 'pain' that users share
+
+As A User
+------
+> A large appeal of our web app would be the concept of anonymity. Users would not have to go through the hassle 
+> of creating an account to browse, vote, or create posts. This allows greater freedom and availability.
+>
+> As a normal user I can open the app and browse through multiple pages. One page is labeled
+> social events and another is labeled promotions. Each user is anonymous, so I don't have to create
+> an account to post a social event. I can upvote or downvote social events, providing credibility. I can
+> also view the ammount of people using *Promotr* that are in attendance of such an event.
+> For promotions I can query results based on price and area, such as restaurant deals or clothes
+> sales. The standard geopgraphical radius is 5 miles, but I can change this scope to be more specific or broad.
+>
+> As a company that wants to promote some sort of event or deal, you can sign up to use the service,
+> which grants access to ad creation gui. This is where a company can design the information and aesthetic
+> of the ad that will be displayed the users on *Promotr*. 
+
+Technology
+------
+> We are still fleshing out the technological aspects of our web app but we would like to use
+> JavaScript on both the server and client side with express for the web framework. Python is 
+> also a possibility, with the use of Django. The database will likely be PostgreSQL or MySQL.
+>
+> The beginning stages of the app might involve a static site for New Haven. Once we can gage
+> if there is a large enough user base, we can expand to offer an API and web GUI. Thus we only need 
+> a shared hosting server at first.
+>
+> The client side involves pinging all the users within a certain geopgraphical radius and loading
+> such information onto the user interface in the form of a list of ads and/or user posts. 
+>
+> The server side deals with the main chunk of the work. It stores ad information for each
+> company that signs up for the service, as well as social events posted by anonymous users.
+
+
+

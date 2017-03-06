@@ -1,16 +1,11 @@
 ---
 name: half-feather
 app:
-  name: sqrl
-  url: http://sqrl.com
-  twitter_username: sqrl
-  repo: http://git.yale.edu/foo
-  tagline: airbnb of storage
+  name: Promotr
+  tagline: find out what's happening locally
   value: |
-    For homeowners and college students
-    our product is a web-based app that allows convenient connection
-    between those looking to rent out unused rooms and those who need 
-    a quick and cheap method of storage.
+    A convenient way to discover what's happening in your area,
+    from social events to promotional deals to restaurant happy hours.
 members:
   - first_name: Stefan
     last_name: Doehler
