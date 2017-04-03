@@ -1,0 +1,48 @@
+---
+title: Catching Up
+summary: |
+  Promotr allows locals to easily discover what's going on in their area,
+  from social events to promotional deals to restaurant happy hours
+news:
+  - title: Developing the business aspect of our model
+    kind: learning
+
+---
+
+Confession
+------
+> Development on *Promotr* has been slow to say the least. As such, we have not made any
+> progress on our previous goals nor have we developed our app's code (we have in fact 0 lines of code
+> at this point). However, we have devised a set of well planned goals that we believe are feasible
+> as well as some more clarification of our app ideas. Next week's update should have much more
+> progress as well as workable code and images of our planned app design.
+
+Goals
+------
+> Reach out to New Haven restaurants and ask if they would be willing to provide us with details of their
+> happy hours/meal specials so that we can display them on their app. Of course, we will not charge them for 
+> use of our app at this point but once we have everything solidifed the idea is that they pay a daily/weekly fee.
+> Our focus right now is limited to restaurants but future inquisitions will be clothing stores and other
+> Yale campus companies. Additionally, whereas we would just hardcode their information into the system, restaurants
+> will be able to use our api to push their ad info to our app in the future.
+>
+> Interview potential consumers. We will reach out to a variety of Yale students, as well as Yale faculty (*cough* *cough* 
+> looking at you Professor Jensen) to see what their thoughts on such an idea is. This will help us gage the demand
+> as potential consumers provide their need/desire of *Promotr* as well as develop our MVP/app layout around their 
+> specific interests.
+>
+> It may take longer than a week to get a response from enough restaurants, especially positive responses. So the temporary
+> solution will be to create a scraper that retrieves coupon deals and happpy hour specials from Groupon, and use that to 
+> display ad information on *Promotr*
+>
+> Develop a simple web home page in Javascript. Our main focus right now is on the coupon/special deals of stores/restaurants
+> right now so we would also like to develop that page, which would be a list of ads. The page for 
+> local social events will be a later task.
+>
+> It will also be helpful to look around for similar ideas to *Promotr* to draw inspiration as well as
+> ensure our idea/design is unique enough. Especially if previous ideas are not that successful.
+
+
+
+
+
