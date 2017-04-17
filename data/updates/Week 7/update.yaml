@@ -1,0 +1,78 @@
+---
+title: Traction
+summary: |
+  Promotr allows locals to easily discover what's going on in their area,
+  from happy hours, to discounts, to special deals.
+news:
+  - title: Developing the business aspect of our model
+    kind: learning
+
+---
+
+Quick Update
+------
+> We've been quite behind on our app these last few weeks but have managed to 
+> make some headway. We finally have an MVP up and running on a heroku server, 
+> have talked to some potential consumers about their ideas, and have strict goals
+> for what to accomplish next time. We will outline these progressions now.
+
+MVP
+------
+> The link to our MVP can be found here: https://morning-ridge-61478.herokuapp.com. 
+> Right now all we have is a homepage, which took annoyingly long considering it's 
+> simplicity. Neither of us have much experience with html or css, so learning the ropes
+> took a little bit of practice. In the end we are satisfied with our result. We aimed to achieve
+> a simple, yet engaging homepage. Something that, similar to the Conversion Centered Design we read
+> about, would not overwhelm the customer but would still guide them in the right direction. The result
+> is a homepage with a clear, pronounced header ("Find the Best Local Deals") with two actions
+> that you can take: promote or search. Simple as that. The buttons currently don't lead to 
+> any other pages but we will outline what we wish for them to accomplish in our 'Goals' section.
+
+Interviews
+------
+> We talked to some of our friends on their thoughts regarding Promotr as a whole as well
+> as the webpage.
+>
+> *Homepage*: We originally just had one button, the search function. But after some concerns 
+> from interviewees about how people/companies would promote things, we realized that a promote 
+> button should be expressed clearly on the homepage. This gives our app a dual role: it's main 
+> service is to enable users to see local deals but these local companies/events must also have a way
+> of posting to our app. Having only two buttons on the homepage simplifies things, and, we hope, will 
+> lead to more 'conversions'.
+>
+> *Promotr*: All the people we interviewed regarding Promotr had positive thoughts regarding
+> the idea. None had apps that told them if discounts or happy hours were occuring in the area. 
+> We asked each what factor has the biggest influence when shopping (either for products or food) 
+> and all either said proximity or pricing. So we think that this app truly could be revolutionary 
+> in the way that it helps people take advantage of those two things: finding this close to you while
+> also finding things that are affordable. 
+
+Goals
+------
+> The main goals right now are to give actual pages for the promote and search button.
+>
+> *promote*: this button will take the user to a page where they can sign up for our service
+> and submit postings (at a cost). Initially, we won't charge for services since we wish to build
+> up a customer base and test things out. Companies/restaurants will obviously be inclined to participate
+> in this because it is free advertisement. A user who wishes to post a promotion will be promted to enter
+> several things: the location of the promotion, a small (less than 100 words) description of the promotion,
+> pictures if necessary, and a tag indicating the category of the promotion (clothing, food, etc.). A simple
+> api will be designed to facilitate this process and allow customers to create an account that is automatically
+> billed for each promotion posted. We are still trying to flush out the details on how long the promotion will 
+> be displayed, as well as getting analytics for how many people view the promotions, which we can use
+> as statistics to convince users that promotions actually work.
+>
+> *search*: this button will take the user to a page that displays all the nearby promotions. The default is a 5 mile
+> radius but the user can select how close or how far away they wish to search, as well as enter a specific category
+> of promotions they wish to search in (clothing, food, etc.). The promotions will be displayed in a list
+> style, colorfully promoted and with small descriptions for each. Ideally the user will be able to click 
+> the ad and use the google maps api to get directions there.
+>
+
+The Works
+------
+> So how will this all work exactly? The basic idea is that promoters will submit promotions to our api,
+> which will get entered in a database, keyed on location. Then, when a user searches for nearby promotions,
+> our app will gather all relevant locations in the specified radius and query those locations in our database,
+> pulling out the information for each location if it exists. We will work on integrating the google maps api to 
+> javascript, as well as establishing a MySQL databse to store all this information.
